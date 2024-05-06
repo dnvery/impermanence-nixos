@@ -19,6 +19,12 @@
       "/etc/nixos"
       "/etc/NetworkManager/system-connections"
     ];
+    users.daniil = {
+      directories = [
+        "impermanence-nixos"
+        ".ssh"
+      ];
+    };
   };
 
   programs.steam.enable = true;
