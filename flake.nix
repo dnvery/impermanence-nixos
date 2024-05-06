@@ -58,7 +58,7 @@
         };
         modules = [
           inputs.disko.nixosModules.default
-          ./nixos/disko.nix
+          ./disko.nix
           ./nixos/configuration.nix
           inputs.impermanence.nixosModules.impermanence
           # make home-manager as a module of nixos
